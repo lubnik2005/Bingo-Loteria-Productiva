@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.card {
+    width: 140px;
+    transition: 0.3s;
+    position: relative;
+
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card:hover {
+    filter: drop-shadow(0px 0px 10px black);
+
+}
+
+.container {
+  padding: 2px 16px;
+  position: absolute;
+  top: 1%;
+}
+.color {
+    width: 90px;
+    height: 90px;
+    background-color:rgba(192, 255, 255, 0.70);
+    border: 2px solid rgb(238, 255, 65);
+    transition: 0.3s;
+
+}
+.circleBase {
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 32px;
+    transition: 0.3s;
+
+}
+
+.number {
+    position: absolute;
+    top: -67px;
+    left: 27px;
+    font-size: 70px;
+    font-weight: bold;
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="card">
+  <img src="wildcard_background.png" alt="wildcard_background" style="width:100%">
+  <div class="circleBase color">
+    <p class="number" >6</p> 
+  </div>
+</div>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTOG8aA0bytLI3FCcfyF5JGtb19z-sALQtxuIqystN7Gr6a1TfRynEfAIVXpkD_tNzX3xdKqLI_485m/pubhtml?gid=0&single=true&widget=true&headers=false" frameborder="0" scrolling="no" onload="resizeIframe(this)" />
+<script>
+    function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+  }
+</script>
+</body>
+</html> 

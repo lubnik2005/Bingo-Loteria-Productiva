@@ -1,4 +1,13 @@
-# mult_lottery
+# Bingo Productiva
+
+A themed math bingo game for  elementary school students.
+
+![alt text](./demo.png "Demo")
+
+## Demo
+
+View live deployment [here](https://www.math.uci.edu/~mathceo/games/bingo/productiva/)
+
 
 ## Project setup
 ```
