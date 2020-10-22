@@ -1,4 +1,4 @@
-# Bingo Productiva
+# Bingo LoterÍa Productiva
 
 A themed math bingo game for  elementary school students.
 
